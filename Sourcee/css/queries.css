@@ -1,0 +1,221 @@
+/* Big tablet to 1200px; */
+@media only screen  and (max-width:1200px){
+    html{
+        font-size: 18px;
+    }
+    .heading-main-box{
+        transform: translate(-35%,-50%);
+    }
+
+    form{
+        margin-left: 30%;
+    }
+    .product-box ul li{
+        margin-left: 45px;
+    }
+
+    .products-section .btn{
+        width:180px;
+        margin-left: 15%;
+    }
+}
+ 
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px){
+     .logo{
+         width: 270px;
+         margin-left: 20px;
+         margin-top: -40px;
+     }
+     .main-nav{
+         margin-right: 10px;
+         margin-top: 40px;
+     }
+     .main-nav li a{
+        text-decoration: none;
+        color: white;
+        font-size: 100%;
+        font-weight: 600;
+          
+    }
+    .main-nav li{
+        margin-right: 20px;
+    }
+     .heading-main-box{
+        transform: translate(-25%,-50%);
+    }
+    h1{
+        font-size: 270%;
+    }
+    .heading-main-box .btn{
+        width: 150px;
+    }
+
+    .picture-title{
+        transform: translate(-60%,100%);
+        font-size: 68%;
+    }
+    .p-long{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 80%;
+    }
+    .product-price{
+        font-size: 200%;
+    }
+    .product-box ul li{
+        margin-left: 15px;
+        font-size: 78%;
+    }
+    .products-section .btn{
+        width:150px;
+        margin-left: 15%;
+    }
+    .product-box{
+        height: 300px;
+        width: 100%px;
+    }
+    .social-icon li{
+        font-size: 230%;
+        margin-right: 15px;
+    }
+    .information{
+        width: 160%;
+    }
+    .social-icon{
+        width: 120%;
+    }
+}
+ 
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px){
+    .col{
+        width: 100%;
+    }
+    .mobile-icon{
+        display: block;
+    }
+    .main-nav{
+        display: none;
+    }
+    .logo{
+        width: 350px;
+        margin-left: 40px;
+    }
+    h1{
+        font-size: 230%;
+        letter-spacing: 1px;
+    }
+    .heading-main-box{
+        transform: translate(-18%,-50%);
+    }
+    .about-picture img{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .picture-title{
+        left: 50%;
+        font-size: 120%;
+    }
+    .product-box{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .product-box ul li{
+        margin-left: 65px;
+        font-size: 18px;
+    }
+    .product-box .btn{
+        margin-left: 25%;
+    }
+    cite{
+        margin-bottom: 40px;
+    }
+    figcaption{
+        visibility: hidden;
+    }
+    .sponsors-showcase{
+        margin-left: 0px;
+    }
+    .information{
+        line-height: 220%;
+        text-align: center;
+        width: auto;
+    }
+    .information .small-icon{
+        text-align: center;
+    }
+    .information li{
+        font-size: 100%;
+    }
+    .social-icon li{
+        font-size:250%;
+    }
+    .social-icon{
+        text-align: center;
+        width: auto;
+    }
+    form{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    label{
+        margin-left: 37%;
+        font-size: 120%;
+    }
+    input,textarea{
+        margin-left: 10%;
+        font-size: 15px;
+    }
+    .stickey .main-nav{
+        margin-top: 70px;
+    }
+}
+@media only screen and (max-width:743px){
+    .stickey .main-nav{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:550px){
+    .mobile-icon{
+        right: 45px;
+        display: block;
+    }
+}
+
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px){
+    html{
+        font-size: 14px;
+    }
+    .logo{
+        width: 270px;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .heading-main-box .btn{
+        display: block;
+        margin-left: 10%;
+        margin-bottom: 15px;
+    }
+    h1{
+        margin-left: 5%;
+    }
+    .mobile-icon{
+        top: 125px;
+        display: block;
+    }
+    .stickey .logo{
+        margin-top: -30px;
+        width: 200px;
+    }
+    .main-nav li{
+        margin-right: 10px;
+    }
+    .main-nav li a{
+        font-size: 90%;
+        font-weight: 500;
+          
+    }
+}
